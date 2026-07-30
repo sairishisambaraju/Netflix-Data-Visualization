@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(page_title="Netflix Data Visualization", layout="wide")
 
 # Load Dataset
-df = pd.read_csv("dataset/netflix_titles.csv")
+df = pd.read_csv("netflix_titles.csv")
 
 # Sidebar Filter
 st.sidebar.title("Filters")
